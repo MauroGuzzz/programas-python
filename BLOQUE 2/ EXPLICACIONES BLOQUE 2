@@ -1,1 +1,197 @@
+PROGRAMA-1
+1. **Entrada del usuario**: El programa solicita que ingreses el tipo de mascota con el comando `input()`. Lo que ingreses se guarda en la variable `mascota`.
+   
+2. **Condicional `if`**: El programa verifica si la palabra "perro" está en el texto ingresado. Si la condición es verdadera (es decir, si el usuario escribió "perro" o algo que contenga "perro"), imprime "Es un perro".
 
+3. **Condicional `elif`**: Si la primera condición no se cumple, el programa verifica si la palabra "gato" está en el texto ingresado. Si es cierto, imprime "Tienes un gato".
+
+4. **Condicional `else`**: Si ninguna de las condiciones anteriores se cumple (es decir, el usuario no escribió "perro" ni "gato"), el programa imprime "Tipo de mascota desconocido".
+
+5. **Mensaje final**: Independientemente de lo que el usuario ingrese, el programa siempre termina con el mensaje "¡Gracias por usar nuestros programas!".
+
+ Ejemplo:
+- Si el usuario ingresa "perro", el programa responderá: "Es un perro".
+- Si el usuario ingresa "gato", el programa responderá: "Tienes un gato".
+- Si el usuario ingresa algo diferente, como "conejo", responderá: "Tipo de mascota desconocido".
+
+
+
+
+
+PROGRAMA-2
+Este programa pide al usuario que ingrese su edad y luego muestra el tipo de dato de la variable en diferentes etapas de conversión. Aquí está el desglose:
+
+Entrada del usuario: El programa solicita al usuario que ingrese su edad usando input(). Lo que se ingresa se guarda como una cadena de texto (tipo str), independientemente de que sea un número.
+
+Mostrar tipo de dato original: La primera vez que se imprime type(variable), se muestra el tipo de la variable variable, que es str porque lo que el usuario ingresa es una cadena de texto.
+
+Conversión a entero: Luego, la variable variable se convierte de str a int (número entero) usando la función int(). Se vuelve a imprimir el tipo de la variable con type(variable), y ahora será int.
+
+Conversión a flotante: Después, la variable variable se convierte de int a float (número decimal) usando la función float(). Nuevamente, se imprime el tipo de la variable, que ahora será float.
+
+Ejemplo de ejecución:
+Si el usuario ingresa 25:
+Al principio, el tipo de variable será str (cadena de texto).
+Luego se convierte en int, lo que cambiaría el tipo de dato a int.
+Finalmente, se convierte en float, por lo que el tipo de dato se cambiaría a float.
+
+
+
+
+
+PROGRAMA-3
+Entrada del usuario: El programa comienza pidiendo al usuario que ingrese su edad. Lo que se ingresa se guarda como un texto (cadena de caracteres). Al imprimir el tipo de la variable en este punto, el resultado será str, ya que cualquier valor ingresado a través de input() se interpreta como texto.
+
+Conversión a número entero: Luego, el programa convierte el valor ingresado de texto a número entero. Esto significa que, si el usuario escribió un número como texto (por ejemplo, "25"), se transformará en un número entero (int). Si imprimes el tipo de la variable después de esta conversión, el resultado será int.
+
+Conversión a número flotante: Finalmente, el programa convierte el valor entero en un número flotante. Al hacer esta conversión, el valor pasa a ser un número con decimales, aunque en este caso, el número entero se representará como un número con decimales (por ejemplo, 25 se convierte en 25.0). El tipo de la variable se cambiará a float.
+
+
+
+
+
+
+PROGRAMA-4
+Este programa calcula los impuestos de un valor (en este caso, 1000 pesos) utilizando una tasa de impuesto del 16%. A continuación te explico cómo funciona:
+
+Definición de la tasa de impuesto: Se establece una tasa de impuesto del 16% (0.16). Este es el porcentaje que se utilizará para calcular los impuestos.
+
+Valor sobre el que se calcula el impuesto: Se define un valor base de 1000 pesos. Este es el monto sobre el que se aplicará la tasa de impuesto.
+
+Cálculo de los impuestos: El programa multiplica el valor de 1000 por la tasa de impuesto (0.16). Esto da el total de los impuestos a pagar. En este caso, el cálculo es 1000 * 0.16 = 160 pesos.
+
+Impresión del resultado: El programa imprime el resultado, que es el total de los impuestos. El mensaje impreso será algo como: "Los impuestos son: 160 pesos".
+
+Mensaje de cierre: Finalmente, el programa muestra el mensaje "¡Gracias por usar nuestro sistema!" como una despedida.
+
+
+
+PROGRAMA-5
+Este programa utiliza varias operaciones de comparación, membership, slicing e indexado con cadenas de texto. Aquí te explico cada sección:
+
+1. Comparación:
+En esta parte, el programa realiza comparaciones entre cadenas de texto usando los operadores ==, !=, <, y >.
+
+==: Compara si dos cadenas son exactamente iguales. En el caso de "Perro" == "Perro", devuelve True porque ambas son idénticas.
+!=: Compara si dos cadenas son diferentes. "Perro" != "Gato" devuelve True porque las palabras no son iguales.
+<: Compara el orden lexicográfico de las cadenas. En este caso, "Aguascalientes" < "Zacatecas" devuelve True porque en una comparación alfabética, "Aguascalientes" viene antes que "Zacatecas".
+>: Similar a <, pero para comprobar si una cadena es mayor en orden alfabético. "Aire" > "Agua" devuelve True porque "Aire" viene después de "Agua" en el alfabeto.
+Membership:
+Este tipo de operación verifica si una cadena está presente dentro de otra utilizando los operadores in y not in.
+
+in: Comprueba si una subcadena está contenida en una cadena más grande. "house" in "Boathouse" devuelve True porque "house" está dentro de "Boathouse".
+not in: Verifica si una subcadena no está presente en una cadena. "Y" not in "ejes" devuelve True porque "Y" no está en "ejes". "je" not in "ejes" devuelve False porque "je" sí está en "ejes".
+3. Slicing:
+El slicing permite extraer una parte de una cadena. Aquí, el programa explica cómo obtener un fragmento de una cadena:
+
+Slicing: La expresión "mi_nombre[2:6]" toma los caracteres de la posición 2 a la 5 de la cadena, pero sin incluir el índice 6. Así, extrae el fragmento "oto " de "Choto Chorchis".
+4. Indexación:
+La indexación permite acceder a un carácter específico de una cadena, utilizando el índice correspondiente (comenzando desde 0).
+
+Indexación individual: "mi_nombre[3]" obtiene el carácter en la posición 3, que en este caso es "t" (de "Choto").
+Otro índice: "mi_nombre[12]" obtiene el carácter en la posición 12, que es "s" (de "Chorchis").
+
+
+
+
+
+PROGRAMA-6 Este programa muestra cómo se pueden crear y mostrar diferentes tipos de listas en Python. Aquí te explico qué hace cada parte:
+
+Lista de enteros: Se crea una lista que contiene tres números enteros: [10, 20, 35]. Al imprimirla, se muestran esos tres valores.
+
+Lista de cadenas de texto (strings): Se crea una lista con tres cadenas de texto: ["Manzana", "piña", "Naranja"]. Al imprimirla, se muestran esas tres palabras.
+
+Lista de booleanos: Se crea una lista con tres valores booleanos: [False, True, True]. Al imprimirla, se muestran los valores False, True y True.
+
+Lista vacía: Se crea una lista sin elementos, es decir, una lista vacía: []. Al imprimirla, el resultado es [], indicando que no contiene ningún elemento.
+
+
+
+
+
+PROGRAMA-7
+Este programa muestra cómo trabajar con diferentes tipos de datos dentro de listas en Python. A continuación, te explico lo que hace cada parte:
+
+1. Lista de cadenas de texto:
+cadenas = ["Juan", "Pedro", "Chuy"]: Se crea una lista de cadenas (nombres de personas).
+print(cadenas): Imprime la lista completa: ["Juan", "Pedro", "Chuy"].
+print(cadenas[1]): Imprime el elemento en la posición 1 de la lista, que es "Pedro", ya que las listas se indexan desde 0.
+print(type(cadenas)): Muestra el tipo de dato de cadenas, que es una lista (<class 'list'>).
+print(type(cadenas[1])): Muestra el tipo de dato del elemento en la posición 1, que es una cadena de texto (<class 'str'>).
+2. Lista de enteros:
+enteros = [5, 4, 8]: Se crea una lista de números enteros.
+print(enteros): Imprime la lista completa: [5, 4, 8].
+print(enteros[0]): Imprime el primer número de la lista, que es 5.
+print(type(enteros)): Muestra el tipo de dato de enteros, que es una lista (<class 'list'>).
+print(enteros[0]): Imprime el primer número de la lista nuevamente: 5.
+3. Lista de enteros nuevamente (en la variable booleanos):
+booleanos = [5, 4, 8]: Aunque el nombre de la variable es booleanos, esta lista contiene enteros (y no valores booleanos).
+print(booleanos): Imprime la lista completa: [5, 4, 8].
+print(booleanos[0]): Imprime el primer número de la lista, que es 5.
+print(type(booleanos)): Muestra el tipo de dato de booleanos, que es una lista (<class 'list'>).
+print(booleanos[0]): Imprime el primer número de la lista nuevamente: 5.
+Resumen:
+Listas: El tipo de dato de las variables cadenas, enteros, y booleanos es lista (<class 'list'>).
+Elementos dentro de las listas: Los elementos dentro de cada lista pueden ser de diferentes tipos, como cadenas de texto (str) o números enteros (int), lo que muestra cómo las listas pueden contener elementos de distintos tipos de datos.
+
+
+
+
+
+PROGRAMA-8 Este programa muestra cómo realizar operaciones de indexación y subindexación (también conocida como slicing) con listas. A continuación te explico lo que hace cada sección:
+
+1. Indexación:
+La indexación permite acceder a un solo elemento dentro de una lista utilizando su índice.
+
+numeros = [10, 20, 30]: Se define una lista de números.
+print(numeros[2]): Imprime el valor en la posición 2 de la lista (empezando desde 0), que es 30.
+print(numeros[0]): Imprime el valor en la posición 0 de la lista, que es 10.
+print(numeros[1]): Imprime el valor en la posición 1 de la lista, que es 20.
+print(numeros[-1]): Imprime el último valor de la lista usando un índice negativo, que también es 30. Los índices negativos se cuentan desde el final de la lista.
+2. Subindexación (Slicing):
+El slicing permite obtener un fragmento de una lista, es decir, un conjunto de elementos dentro de un rango determinado de índices.
+
+nombres = ["Chorchis", "Choto", "Emiliano", "Pepe el toro"]: Se define una lista de nombres.
+print(nombres[1:]): Imprime todos los elementos a partir del índice 1 (incluido), es decir, ["Choto", "Emiliano", "Pepe el toro"].
+print(nombres[1:5]): Imprime los elementos desde el índice 1 hasta el índice 4 (el índice 5 no se incluye), es decir, ["Choto", "Emiliano", "Pepe el toro"].
+print(nombres[-2:]): Imprime los últimos dos elementos de la lista, empezando desde el índice -2, es decir, ["Emiliano", "Pepe el toro"].
+Resumen:
+Indexación te permite acceder a un solo elemento de la lista usando un índice específico.
+Slicing (subindexación) te permite obtener un fragmento de la lista, seleccionando un rango de índices.
+
+
+
+
+
+PROGRAMA-9 1. Verificación de si un elemento está en la lista (in):
+El operador in devuelve True si el elemento está presente en la lista y False si no lo está.
+
+"Luis" in nombres: Compara si el nombre "Luis" está en la lista nombres = ["Choto", "Emilio", "Luis"]. Como "Luis" está presente en la lista, devuelve True.
+"Emi" in nombres: Compara si el nombre "Emi" está en la lista. Como "Emi" no está exactamente en la lista (aunque hay un nombre similar, "Emilio"), devuelve False.
+"Javier" in nombres: Compara si el nombre "Javier" está en la lista. Como "Javier" no está en la lista, devuelve False.
+2. Verificación de si un elemento no está en la lista (not in):
+El operador not in devuelve True si el elemento no está presente en la lista, y False si está presente.
+
+"Jose" not in nombres: Compara si el nombre "Jose" no está en la lista. Como "Jose" efectivamente no está presente en la lista, devuelve True.
+Resumen:
+El operador in se utiliza para verificar si un elemento está presente en la lista.
+El operador not in se utiliza para verificar si un elemento no está presente en la lista.
+
+
+
+
+PROGRAMA-10  Agregar un elemento con append():
+colores = ["rojo", "azul"]: Se define una lista llamada colores con dos elementos: "rojo" y "azul".
+print(colores): Imprime la lista original: ["rojo", "azul"].
+colores.append("verde"): Usa el método append() para agregar el elemento "verde" al final de la lista. Después de esto, la lista será: ["rojo", "azul", "verde"].
+print(colores): Imprime la lista actualizada: ["rojo", "azul", "verde"].
+2. Error al intentar sumar un string a una lista:
+print(colores + "Amarillo"): Este código genera un error porque intenta sumar un string ("Amarillo") a una lista. Python no permite sumar directamente una lista con un string, ya que son tipos de datos diferentes. El error sería algo como TypeError: can only concatenate list (not "str") to list.
+Solución para agregar un nuevo elemento:
+Si quieres agregar "Amarillo" a la lista, puedes usar append() o + de manera correcta, de esta forma:
+
+colores.append("Amarillo"): Agregaría "Amarillo" al final de la lista.
+colores + ["Amarillo"]: Puedes concatenar una lista con un solo elemento dentro, como ["Amarillo"], lo cual resultará en ["rojo", "azul", "verde", "Amarillo"].
+Resumen:
+append() agrega un solo elemento al final de una lista.
+Concatenación con + funciona solo entre listas, no entre una lista y un string.
