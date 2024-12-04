@@ -1,1 +1,154 @@
+PROGRAMA-1
+La compuerta lógica NOT es un operador lógico que invierte el valor de entrada:
+ • Si la entrada es TRUE (verdadero), la salida será FALSE (falso).
+ • Si la entrada es FALSE (falso), la salida será TRUE (verdadero).
+
+En este caso:
+ 1. La primera línea toma el valor TRUE como entrada y lo invierte, devolviendo FALSE.
+ 2. La segunda línea toma el valor FALSE como entrada y lo invierte, devolviendo TRUE.
+
+Esto demuestra que la compuerta NOT invierte el valor lógico de su entrada.
+
+
+
+
+
+PROGRAMA-2
+El programa decide si hay fiesta dependiendo de la expresión lógica NOT (A OR B).
+ 1. Si A OR B es falso (ambos son falsos), la negación NOT lo convierte en verdadero, lo que significa “Hay fiesta”.
+ 2. Si A OR B es verdadero (al menos uno es verdadero), la negación NOT lo convierte en falso, lo que significa “No hay fiesta”.
+
+En resumen, solo hay fiesta si ninguno de los dos participa (A = 0 y B = 0).
+
+
+
+
+PROGRAMA-3
+El programa muestra cómo funciona la concatenación de cadenas de texto.
+
+Concatenación significa unir varias cadenas en una sola:
+ 1. Se toman las palabras "Mi", "nombre", "es" y "Edinguer".
+ 2. Al unirlas, se obtiene la frase: “Mi nombre es Edinguer”.
+
+El resultado final es una única cadena de texto combinada.
+
+
+PROGRAMA-4
+El programa calcula el impuesto (IVA) de un valor ingresado por el usuario y luego muestra el resultado.
+ 1. Entrada de datos: El usuario escribe un valor numérico (por ejemplo, 100).
+ 2. Cálculo del IVA: Se multiplica el valor ingresado por 0.16 (16% de impuesto).
+ • Por ejemplo, si el valor es 100, el IVA será .
+ 3. Resultado: Se suma el IVA al valor original y se imprime el total.
+
+El programa presenta el valor con IVA incluido.
+
+
+
+
+PROGRAMA-5
+Este programa muestra cómo usar comparación, membership, slicing e indexado con cadenas de texto.
+
+Comparación:
+
+ 1. Compara si dos cadenas son iguales o diferentes.
+ 2. Compara el orden alfabético de las cadenas.
+
+Membership:
+
+ 1. Verifica si una palabra está dentro de otra.
+ 2. Verifica si una palabra no está dentro de otra.
+Slicing:
+Permite extraer partes de una cadena, como una porción específica de la misma.
+
+Indexado:
+Accede a un carácter específico de la cadena según su posición (por ejemplo, el primer carácter, el tercer carácter, etc.).
+En resumen, el programa muestra cómo comparar cadenas, verificar si una palabra está dentro de otra, extraer subcadenas y acceder a caracteres específicos de una cadena.
+
+
+PROGRAMA-6
+Este programa muestra cómo usar índices negativos para acceder a partes de una cadena:
+ 1. word[-1]: El índice -1 se refiere al último carácter de la cadena, en este caso, “r”.
+ 2. word[1:-1]: Esto toma una subcadena desde el segundo carácter hasta el penúltimo, es decir, “amste”.
+ 3. word[-3:]: Esto toma los últimos tres caracteres de la cadena, es decir, “ter”.
+ 4. word[:3]: Esto toma los primeros tres caracteres de la cadena, es decir, “Ham”.
+
+Los índices negativos permiten acceder a los caracteres de una cadena comenzando desde el final hacia el principio.
+
+
+
+
+PROGRAMA-7
+Este programa solicita la edad del usuario y determina si puede entrar a un bar.
+ 1. El usuario ingresa su edad.
+ 2. Si la edad es 18 años o más, el programa muestra “Entras”.
+ 3. Si la edad es menos de 18 años, el programa muestra “No entras”.
+
+En resumen, solo las personas de 18 años o más pueden entrar al bar.
+
+
+
+
+PROGRAMA-8
+Este programa calcula el promedio de las calificaciones de 5 unidades y decide si el usuario aprobó la materia.
+ 1. El usuario ingresa las calificaciones de las 5 unidades en una escala del 1 al 100.
+ 2. El programa calcula el promedio de esas calificaciones.
+ 3. Si el promedio es 70 o más, muestra un mensaje indicando que el estudiante aprobó, junto con su calificación final.
+ 4. Si el promedio es menos de 70, muestra un mensaje indicando que no aprobó, junto con su calificación final.
+
+En resumen, el programa ayuda a determinar si el estudiante aprueba o no, dependiendo de su promedio.
+
+
+
+
+PROGRAMA-9
+Este programa solicita la cantidad de artículos que el usuario quiere comprar. Luego calcula el costo total multiplicando la cantidad por 45. Si la cantidad de artículos es 3 o menos, muestra el costo de esos artículos.
+
+
+
+
+PROGRAMA-10
+Este programa verifica si el usuario puede ver una película en Netflix basado en su edad y si compró la película.
+ 1. Si el usuario tiene 18 años o más, se le pregunta si compró la película.
+ • Si sí compró la película, el programa dice “Puede ver la película”.
+ • Si no compró la película, el programa dice “A casa pajin”.
+ 2. Si el usuario tiene menos de 18 años, el programa simplemente dice “No”.
+
+El programa usa condiciones anidadas para verificar la edad primero y luego si compró la película.
+
+
+
+
+PROGRAMA-11
+Este programa muestra cómo agregar un elemento a una lista usando el método append().
+ 1. Inicializa una lista llamada colores con los elementos “rojo” y “azul”.
+ 2. Luego, se agrega “verde” a la lista usando colores.append(“verde”).
+ 3. Se imprime la lista después de agregar el nuevo color, que ahora contiene “rojo”, “azul” y “verde”.
+
+El programa tiene un comentario que muestra un intento de concatenar un string “Amarillo” a la lista, lo que generaría un error porque no se puede concatenar un string directamente a una lista.
+
+
+
+
+PROGRAMA-12
+Este programa muestra las tablas de verdad para las compuertas lógicas OR y AND.
+
+Compuerta OR:
+
+ • False or False → False
+ • False or True → True
+ • True or False → True
+ • True or True → True
+
+La compuerta OR devuelve True si al menos uno de los valores es True.
+
+Compuerta AND:
+
+ • False and False → False
+ • False and True → False
+ • True and False → False
+ • True and True → True
+
+La compuerta AND devuelve True solo si ambos valores son True.
+
+El programa simplemente muestra cómo funcionan estas operaciones lógicas.
 
