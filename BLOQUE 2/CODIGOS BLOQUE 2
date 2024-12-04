@@ -1,1 +1,178 @@
+PROGRAMA-1
+mascota = input("Ingresa el tipo de mascota que tienes:")
+
+if "perro" in mascota:      #Pregunta si la palabra "perro" esta dentro
+    print("Es un perro")    #De la variable mascota
+elif "gato" in mascota:     #Es un else + if fusionado
+    print("Tienes un gato")
+else:
+    print("Tipo de mascota desconocido")
+    
+print("¡Gracias por usar nuestros programas!")
+
+
+
+PROGRAMA-2
+variable  = input("Ingresa tu edad: ")
+print(type(variable))
+
+variable = int(variable)
+print(type(variable))
+
+variable = float(variable)
+print(type(variable))
+
+
+
+
+
+PROGRAMA-3
+variable=input("Ingresa tu edad: ")
+print(type(variable))
+
+variable=int(variable)
+print(type(variable))
+
+variable=float(variable)
+print(type(variable))
+
+
+
+
+
+PROGRAMA-4
+tasa_impuesto = 0.16 
+# 16% de impuesto 
+# # Valor sobre el que se calcula el impuesto 
+valor = 1000 
+# Puedes cambiar este valor 
+# # Calcular los impuestos 
+impuestos = valor * tasa_impuesto 
+# Imprimir el resultado 
+print(f"Los impuestos son: {impuestos} pesos")
+
+
+
+
+PROGRAMA-5
+print("COMPARACIÓN:")
+print("Perro"=="Perro") #True
+print("Perro"!="Gato") #True
+print("Aguascalientes"<"Zacatecas")#True
+print("Aire">"Agua") #True
+print("\nMEMBERSHIP:")
+#REVISA SI LA PRIMERA CADENA ESTÁ EN LA SEGUNDA
+print("house" in "Boathouse") #True
+print("bien" in "bienvenidos")#True
+print("Y" not in "ejes")#True
+print("je" not in "ejes")#False
+print("\nSLICING:")
+print("SIRVE PARA OBTENER UN FRAGMENTO DE UNA CADENA DADA. SI SOLO DESEAMOS OBTENER UN SOLO CARACTER, ENTONCES USAREMOS LA INDEXACIÓN")
+print("INDEXING:")
+mi_nombre = "Choto Chorchis"
+print(mi_nombre[3])
+print(mi_nombre[12])
+print(mi_nombre[2:6])
+
+
+
+
+PROGRAMA-6
+#Lista de enteros
+print([10,20,35])
+#Lista de cadenas de texto (string)
+print(["Manzana", "piña", "Naranja"])
+#Lista de booleanos
+print([False, True, True])
+#Lista vacia
+print([])
+
+
+
+
+
+PROGRAMA-7
+cadenas = ["Juan", "Pedro", "Chuy"]
+print(cadenas)
+print(cadenas[1])
+print(type(cadenas))
+print(type(cadenas[1]))
+
+enteros = [5, 4, 8]
+print(enteros)
+print(enteros[0])
+print(type(enteros))
+print(enteros[0])
+
+booleanos = [5, 4, 8]
+print(booleanos)
+print(booleanos[0])
+print(type(booleanos))
+print(booleanos[0])
+
+
+
+
+
+PROGRAMA-8
+print("Indexing")
+numeros= [10, 20, 30]
+print(numeros[2])
+print(numeros[0])
+print(numeros[1])
+
+print(numeros[-1])
+print("\nSubscripting")
+nombres = ["Chorchis", "Choto", "Emiliano", "Pepe el toro"]
+print(nombres[1:])
+print(nombres[1:5])
+print(nombres[-2:])
+
+
+
+
+PROGRAMA-9
+puntos=[10, 30, 20]
+puntos_2=[10, 30, 20]
+ordenados=[10, 20, 30]
+puntos_texto=["10", "30", "20"]
+
+print(puntos==puntos_2) #True
+print(puntos==ordenados) #False
+print(puntos==puntos_texto) #False
+
+print(puntos!=puntos_2) #False
+print(puntos!=ordenados) #True
+print(puntos!=puntos_texto) #True
+
+
+
+
+PROGRAMA-10
+nombres=["Choto", "Emilio", "Luis"]
+print("Luis" in nombres)#True
+print("Emi" in nombres)#False
+print("Javier" in nombres)#False
+print("Jose" not in nombres)#True
+
+
+
+
+PROGRAMA-11
+colores=["rojo", "azul"]
+print(colores)
+colores.append("verde")
+print(colores)
+print(colores + "Amarillo")#error
+
+
+
+
+
+
+
+
+
+
+
 
