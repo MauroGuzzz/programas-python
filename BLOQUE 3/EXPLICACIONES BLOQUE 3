@@ -1,1 +1,110 @@
+PROGRAMA-1
+El programa hace dos cosas:
+Imprime algunos elementos específicos de una lista, como el primero, el segundo y el último.
+Luego, usa un ciclo para recorrer toda la lista, pero en cada vuelta imprime siempre el segundo 
+elemento de la lista y después el elemento que está recorriendo. Esto hace que repita mucho el segundo
+elemento sin necesidad.
 
+
+
+PROGRAMA-2
+El programa tiene una lista de frutas ("Manzana", "Piña", y "Plátano") y utiliza un ciclo
+for para recorrerla. En cada vuelta del ciclo:
+Toma una fruta de la lista.
+Muestra un mensaje que dice: "La fruta es: [nombre de la fruta]".
+Por ejemplo, el resultado sería
+La fruta es: Manzana
+La fruta es: Piña
+La fruta es: Plátano
+Es una forma sencilla de recorrer una lista y mostrar cada elemento con 
+un mensaje personalizado.
+
+
+
+PROGRAMA-3
+Este programa utiliza la función range() para generar secuencias de números y 
+luego las recorre con un ciclo for, imprimiendo cada número. Tiene tres partes:
+
+Valores del 0 al 9:
+Utiliza range(10) para generar números del 0 al 9 (excluye el 10).
+Resultado:
+0 1 2 3 4 5 6 7 8 9
+Valores del 5 al 15:
+Utiliza range(5, 16) para generar números desde 5 hasta 15 (incluye el 15).
+Resultado:
+5 6 7 8 9 10 11 12 13 14 15
+Valores del 10 al 20 (de dos en dos):
+Utiliza range(10, 21, 2) para generar números desde 10 hasta 20, aumentando de 2 en 2.
+Resultado:
+10 12 14 16 18 20
+El programa demuestra cómo usar range() con diferentes configuraciones: 
+límites inferiores, superiores, y pasos (incrementos).
+
+
+
+
+
+PROGRAMA-4
+Este programa tiene una lista con los nombres de 10 gatos y los imprime uno por 
+uno usando un ciclo for.
+Funcionamiento:
+Lista de nombres:
+Crea una lista llamada gatos con los nombres de los gatos.
+Mensaje inicial:
+Imprime el texto: "Los 10 gatos que tengo son:".
+Recorrido de la lista:
+Utiliza un ciclo for para recorrer la lista y mostrar el nombre de cada gato en una nueva línea.
+Mensaje final:
+Imprime: "Gracias por ver los 10 gatos que tengo" al terminar de recorrer la lista.
+
+Resultado esperado:
+Los 10 gatos que tengo son:
+Tito
+Crickys
+Mango
+Totis
+Momo
+Copo
+Poncho
+Bombón
+Pantera
+Cheeto
+Gracias por ver los 10 gatos que tengo
+Es una forma simple y efectiva de mostrar elementos de una lista
+con un mensaje introductorio y uno final.
+
+
+
+
+PROGRAMA-5
+
+Este programa muestra cuatro patrones comunes con ciclos for:
+
+Contador: Cuenta elementos de una lista sumando 1 en cada iteración.
+Resultado: La lista "letras" tiene 5 letras.
+
+Sumatoria: Suma los números de una lista acumulándolos en una variable.
+Resultado: La sumatoria es 1000.
+
+Acumulación: Une palabras de una lista en una sola cadena.
+Resultado: Hoy Hace Frío.
+
+Mapeo: Copia elementos de una lista a otra.
+Resultado: La lista copiada es ['Mnazana', 'Piña', 'Uva'].
+
+
+
+
+PROGRAMA-6
+Este programa utiliza el patrón de filtro para crear una nueva lista con elementos que cumplen una condición específica.
+
+Explicación:
+Lista original: Tiene varios números, algunos menores a 50 y otros mayores o iguales.
+Nueva lista: Se inicializa como vacía. En cada iteración, el programa verifica
+si el número es menor a 50:
+Si cumple la condición, se agrega a la nueva lista usando append().
+Resultados: Al final, imprime tanto la lista original como la nueva lista filtrada.
+Resultado esperado:
+La lista original es: [10, 50, 25, 13, 10, 28, 100, 500, 29, 29]
+La nueva lista es: [10, 25, 13, 10, 28, 29, 29]
+Es un ejemplo práctico de cómo usar ciclos para filtrar elementos según criterios específicos.
