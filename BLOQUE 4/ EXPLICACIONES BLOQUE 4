@@ -1,1 +1,131 @@
+PROGRAMA-1
+Definición de Variables:
+
+Se crean tres variables: una para el nombre (que contiene "Samantha"), otra para la edad
+(que es 19) y una más para la calificación (que es 95.0).
+Impresión de Nombre y Edad:
+
+Se imprime un mensaje que incluye el nombre y la edad. Para hacer esto, se combinan
+las cadenas de texto con las variables. La edad, que es un número, se convierte a texto para poder incluirla en el mensaje.
+Uso de Cadenas Formateadas:
+
+Se utiliza una forma más moderna de formatear cadenas, que permite insertar directamente 
+las variables en el texto. Esto hace que el mensaje sea más fácil de leer y escribir.
+Formateo con el Carácter %:
+
+Se presenta otra forma de incluir variables en un mensaje, utilizando un método más antiguo
+que usa el símbolo %. Este método permite especificar el tipo de cada variable (por ejemplo, texto, número entero, número decimal) y se asegura de que se muestren correctamente en el mensaje.
+Resumen
+El código muestra cómo trabajar con variables y cómo imprimir mensajes que incluyen esas
+variables de diferentes maneras. Se utilizan concatenación de cadenas, formateo moderno (f-strings) y un método más antiguo de formateo con el símbolo %.
+
+
+
+
+
+
+PROGRAMA-2
+
+
+
+
+PROGRAMA-3
+
+
+
+
+
+PROGRAMA-4
+Definición de la Función:
+
+Se define una función llamada saludar, que toma un parámetro llamado nombre.
+Un parámetro es una variable que se utiliza para recibir información cuando se llama a la función.
+Dentro de la función, se utilizan mensajes que incluyen el nombre proporcionado.
+Se utiliza un formato de cadena que permite insertar el valor del parámetro nombre en el mensaje.
+Impresión de Mensajes:
+
+Cuando se llama a la función, se imprimen tres mensajes:
+Un saludo que incluye el nombre.
+Una pregunta sobre cómo se encuentra la persona.
+Un deseo de que la persona esté bien.
+Estos mensajes se imprimen cada vez que se llama a la función, y el nombre que se
+muestra en el saludo depende del argumento que se pase a la función.
+Llamadas a la Función:
+
+Se realizan tres llamadas a la función saludar, cada una con un argumento diferente:
+En la primera llamada, se pasa el argumento "Edinguer".
+En la segunda llamada, se pasa el argumento "Sam".
+En la tercera llamada, se pasa el argumento "Osvaldo".
+Cada vez que se llama a la función, se ejecutan las instrucciones dentro de la función,
+y se imprime un saludo personalizado para cada nombre.
+
+
+
+
+
+
+PROGRAMA-5
+Definición de la Función:
+
+Se define una función llamada saludar, que toma dos parámetros: nombre y edad.
+Los parámetros son variables que permiten a la función recibir información cuando se llama.
+Impresión de Mensajes:
+
+Dentro de la función, se imprimen tres mensajes:
+Un saludo que incluye el nombre de la persona.
+Un mensaje que indica la edad de la persona.
+Un deseo de que la persona esté bien.
+Se utiliza un formato de cadena que permite insertar los valores de los parámetros nombre
+y edad en los mensajes.
+Llamadas a la Función:
+
+Se realizan tres llamadas a la función saludar, cada una con diferentes argumentos:
+En la primera llamada, se pasa el argumento "Edinguer" y el número 26.
+En la segunda llamada, se pasa el argumento "Samantha" y el número 19.
+En la tercera llamada, se pasa el argumento "Osvaldo" y el número 20.
+Cada vez que se llama a la función, se ejecutan las instrucciones dentro de la función,
+y se imprime un saludo personalizado que incluye tanto el nombre como la edad de la persona.
+
+
+
+
+
+PROGRAMA-6
+
+
+
+
+PROGRAMA-7
+
+
+
+PROGRAMA-8
+
+
+
+PROGRAMA-9
+Proceso General
+Solicitar un Número:
+
+El primer paso es pedir al usuario que ingrese un número. Este número debe ser un valor entero.
+Verificar el Rango:
+
+Una vez que el usuario ingresa el número, se debe comprobar si este número está dentro
+de un rango específico, en este caso, entre 10 y 99, inclusive. Si el número no está en 
+este rango, se debe informar al usuario que el número no es válido.
+Comprobar Divisibilidad:
+
+Si el número está en el rango correcto, el siguiente paso es verificar si es divisible por 
+otros números. Esto se hace probando todos los números enteros desde 2 hasta un número justo
+antes del número ingresado.
+Para cada número en este rango, se calcula el resto de la división del número ingresado por
+el número actual. Si el resto es cero, significa que el número ingresado es divisible por ese número.
+Informar Resultados:
+
+Si se encuentra al menos un número por el cual el número ingresado es divisible, 
+se informa al usuario sobre esa divisibilidad.
+Si no se encuentra ningún número que divida al número ingresado 
+sin dejar un resto, se informa al usuario que el número no es divisible por ningún número en
+el rango especificado.
+
 
