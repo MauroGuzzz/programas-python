@@ -1,1 +1,179 @@
+PROGRAMA-1
+lista_num = [10, 30, 40, 20, 35, 80]
+print(lista_num [0])
+print(lista_num [1])
+print(lista_num [5])
+#Haciendo lo mismo pero con un ciclo "for"
+for i in lista_num:
+    print(lista_num[1])
+    print(i)
+
+
+
+PROGRAMA-2
+frutas = ["Manzana", "Piña", "Plátano"]
+
+for fruta in frutas:
+    print("La fruta es:", fruta)
+
+
+
+PROGRAMA-3
+print("Imprime los valores del 0 al 9")
+x=range (10)
+for num in x:
+    print(num)
+
+print("Imprime los valores del 5 al 15")
+x1= range (5, 16)
+for num in x1:
+    print(num)
+
+print("Imprime los valores del 10 al 20")
+x2= range (10, 21, 2)
+for num in x2:
+    print(num)
+
+
+
+
+
+PROGRAMA-4
+gatos= ["Tito", "Crickys", "Mango", "Totis", "Momo", "Copo", "Poncho", "Bombón", "Pantera", "Cheeto"]
+#Imprimir cada gato en la lista
+print("Los 10 gatos que tengo son:")
+for gatos in gatos:
+    print(gatos)
+
+print("Gracias por ver los 10 gatos que tengo")
+
+
+
+
+
+PROGRAMA-5
+letras= ["a", "b", "c", "d", "e"]
+contador=0 #inicializa variable
+for letra in letras:
+    contador=contador+1
+print("La lista \"letras\"tiene", contador, "letras")
+
+
+#The sum pattern
+numeros=[100, 200, 300, 400]
+sumatoria=0 #Inicialización
+for numero in numeros:
+    sumatoria=sumatoria+numero
+print("La sumatoria es", sumatoria)
+
+
+#The accumulation pattern
+palabras=["Hoy", " ","Hace", " ", "Frío"]
+mensaje=""
+for palabra in palabras:
+    mensaje=mensaje+palabra
+print(mensaje)
+
+#The Map pattern
+#Sirve para "mapear" cada uno de los elementos de una nueva variable.
+#Por ejemplo, para crear una lista idéntica nueva desde otra ya existente
+lista_anterior= ["Mnazana", "Piña", "Uva"]
+lista_nueva=[]
+print("La lista vacia", lista_nueva)
+for fruta in lista_anterior:
+    lista_nueva.append(fruta)
+print("La lista copiada es", lista_nueva)
+
+
+
+
+
+PROGRAMA-6
+numeros=[10,50,25,13,10,28,100,500,29,29]
+menores_50=[] #crea una lista vacia
+for numero in numeros:
+    if numero < 50:
+        menores_50.append(numero)
+print("La lista original es:" , numeros)
+print("La nueva lista es:" , menores_50)
+
+
+
+
+
+PROGRAMA-7
+
+
+
+
+
+
+PROGRAMA-8
+i =1 #Inicialización de la variable de control
+while i <= 10: #Condición de parada
+    print(i)
+    i += 1 #Equivalente a i  = i + 1
+#Sintaxis:
+#while <condición>:
+#   <cuerpo del while>
+
+#Ejemplo 2
+#Imprimir los números del 10 al 1
+i = 10
+while i >= 1:
+    print(i)
+    i -= 1
+
+
+
+
+
+PROGRAMA-9
+i = 1
+while i <= 10:
+    if i == 5:
+        break
+    print(i)
+    i += 1 #Equivale a i = i + 1
+print("Fin del programa")
+
+#ejemplo 2 - continue
+#Imprimir los numeros del 1 al 10,
+#pero si el numero es 5, omitirlo
+i = 1
+while i <= 10:
+    if i == 5:
+        i += 1
+        continue
+    print(i)
+    i += 1
+print("Fin del programa")
+
+
+
+
+
+PROGRAMA-10
+cadena = "Python es un lenguaje de programación"
+print("\n", cadena)
+
+cadena_mayusculas = cadena.upper() #Convertimos la cadena a mayusculas
+print("\n", cadena_mayusculas)
+
+cadena_minusculas = cadena.lower() #Convertimos la cadena a minusculas
+print("\n", cadena_minusculas)
+print("\nFin del programa")
+
+
+
+
+PROGRAMA-11
+palabra = ""
+while palabra != "salir":
+    palabra = input("Ingresa una palabra o ´salir´ para terminar: ")
+    palabra = palabra.lower() #Convierte la palabra en minúsculas
+    print("Usted ingresó:", palabra)
+print("Fin del programa")
+
+
 
