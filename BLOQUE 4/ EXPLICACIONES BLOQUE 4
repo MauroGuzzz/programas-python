@@ -50,7 +50,18 @@ Resumen
 
 
 PROGRAMA-3
+Definición de la Lista:
 
+Se crea una lista llamada frutas que contiene tres elementos: "Manzana", "Piña" y "Plátano". Esta lista almacena los nombres de las frutas que se van a procesar.
+Iteración a través de la Lista:
+
+Se utiliza un bucle para recorrer cada elemento de la lista frutas. En cada iteración del bucle, se toma un elemento de la lista y se asigna a la variable fruta.
+Impresión de Resultados:
+
+Dentro del bucle, se imprime un mensaje que incluye el nombre de la fruta actual. Esto se hace utilizando la variable fruta, que contiene el nombre de la fruta en la iteración actual.
+Repetición:
+
+El bucle continúa hasta que se han procesado todos los elementos de la lista. Por lo tanto, se imprimirá un mensaje para cada fruta en la lista.
 
 
 
