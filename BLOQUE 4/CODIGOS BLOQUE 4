@@ -17,3 +17,85 @@ print("nombre : %s, edad %d, promedio: %2f %(nombre, edad, calificacion)")
 
 
 PROGRAMA-2
+Nombres = ["Luis", "Chuy", "Mauricio"]
+for nombre in Nombres:
+    print("El nombre es: ", nombre)
+
+
+
+
+PROGRAMA-3
+frutas =["Manzana", "Piña","Platano"]
+for fruta in frutas:
+    print("La fruta es:", fruta)
+
+
+
+
+
+PROGRAMA-4
+def saludar(nombre): # nombre es un parametro
+    print(f'\n ¡Hola, {nombre}!')
+    print('¿Cómo estás?')
+    print('¡Espero que te encuentres bien!\n')
+
+#Llamada a la función
+saludar('Edinguer') #Edinguer es un argumento
+saludar('Sam') #Sam es un argumento
+saludar('Osvaldo') #Osvaldo es un argumento
+
+
+
+
+PROGRAMA-5
+def saludar(nombre, edad): #Nombre y edad son parametros
+    print(f'\n¡Hola, {nombre}!')
+    print(f'Tienes {edad} años.')
+    print('¡Espero que te encuentres bien!\n')
+
+
+#Llamada a la función
+saludar('Edinguer', 26) #Edinguer y 26 son argumentos
+saludar('Samantha', 19) #Samantha y 19 son argumentos
+saludar('Oavaldo', 20) #Osvaldo y 20 son argumentos
+
+
+
+
+PROGRAMA-6
+print("THE COUNT PATTERN")
+letras = ["a", "b", "c", "d", "e"]
+contador = 0 
+for letra in letras:
+    contador = contador +1
+    print("La lista \"letras\" tiene",contador, "letras")
+
+
+
+
+PROGRAMA-7
+print("THE SUM PATTERN")
+numeros = [100,200,300,400]
+sumatoria = 0 # Inicialización
+for numero in numeros:
+    sumatoria = sumatoria + numero
+print("La sumatoria es:", sumatoria)
+
+
+
+
+PROGRAMA-8
+Nombres = ["Luis", "Chuy", "Mauricio"]
+for nombre in Nombres:
+    print("El nombre es: ", nombre)
+
+
+
+
+PROGRAMA-9
+num=input(int(""))
+if num>=10 and num <=99:
+    for i in range (2, num)
+        res=num% i #resultado
+    else:
+
