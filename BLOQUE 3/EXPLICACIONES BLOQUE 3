@@ -108,3 +108,140 @@ Resultado esperado:
 La lista original es: [10, 50, 25, 13, 10, 28, 100, 500, 29, 29]
 La nueva lista es: [10, 25, 13, 10, 28, 29, 29]
 Es un ejemplo práctico de cómo usar ciclos para filtrar elementos según criterios específicos.
+
+
+
+
+PROGRAMA-7
+
+
+
+
+
+
+
+PROGRAMA-8
+Bucle while:
+
+Se usa para repetir acciones mientras una condición sea verdadera.
+Ejemplo 1: Números del 1 al 10:
+
+Inicio: Se empieza con i = 1.
+Condición: Mientras i sea menor o igual a 10, se hace lo siguiente:
+Imprimir: Muestra el valor de i.
+Incrementar: Se suma 1 a i (es decir, i se convierte en i + 1).
+Fin: Cuando i llega a 11, el bucle se detiene.
+Ejemplo 2: Números del 10 al 1:
+
+Inicio: Se empieza con i = 10.
+Condición: Mientras i sea mayor o igual a 1, se hace lo siguiente:
+Imprimir: Muestra el valor de i.
+Decrementar: Se resta 1 a i (es decir, i se convierte en i - 1).
+Fin: Cuando i llega a 0, el bucle se detiene.
+Resumen
+Bucle while: Repite acciones mientras la condición es verdadera.
+Ejemplo 1: Imprime del 1 al 10.
+Ejemplo 2: Imprime del 10 al 1.
+
+
+
+
+PROGRAMA-9
+Comentarios Iniciales:
+
+El programa fue elaborado por Samantha Naomi Vital Flores y muestra cómo usar los comandos break y continue.
+Ejemplo 1: Uso de break:
+
+Objetivo: Imprimir números del 1 al 10, pero detenerse si el número es 5.
+Inicio: Se inicia con i = 1.
+Condición: Mientras i sea menor o igual a 10:
+Si i es 5: Se ejecuta break, que detiene el bucle.
+Imprimir: Muestra el valor de i.
+Incrementar: Se suma 1 a i.
+Fin: Cuando i es 5, el bucle se detiene y se imprime "Fin del programa".
+Ejemplo 2: Uso de continue:
+
+Objetivo: Imprimir números del 1 al 10, pero omitir el número 5.
+Inicio: Se inicia con i = 1.
+Condición: Mientras i sea menor o igual a 10:
+Si i es 5: Se incrementa i en 1 y se ejecuta continue, que salta a la siguiente iteración del bucle sin imprimir el 5.
+Imprimir: Muestra el valor de i (excepto el 5).
+Incrementar: Se suma 1 a i.
+Fin: El bucle termina cuando i supera 10, y se imprime "Fin del programa".
+Resumen
+break: Detiene el bucle cuando se cumple una condición (en este caso, cuando i es 5).
+continue: Salta la iteración actual y continúa con la siguiente (en este caso, omite imprimir el 5).
+
+
+
+
+
+
+PROGRAMA-10
+Comentarios Iniciales:
+
+El programa fue elaborado por Samantha Naomi Vital Flores y muestra cómo usar los métodos upper() y lower() en Python.
+Definición de la Cadena:
+
+Se define una cadena de texto:
+
+cadena = "Python es un lenguaje de programación"
+Se imprime la cadena original.
+Convertir a Mayúsculas:
+
+Se usa el método upper() para convertir toda la cadena a mayúsculas:
+python
+cadena_mayusculas = cadena.upper()
+Se imprime la cadena en mayúsculas.
+Convertir a Minúsculas:
+
+Se usa el método lower() para convertir toda la cadena a minúsculas:
+python
+cadena_minusculas = cadena.lower()
+Se imprime la cadena en minúsculas.
+Fin del Programa:
+
+Se imprime "Fin del programa".
+Resumen
+upper(): Convierte todos los caracteres de la cadena a mayúsculas.
+lower(): Convierte todos los caracteres de la cadena a minúsculas.
+
+
+
+
+
+PROGRAMA-11
+Comentarios Iniciales:
+El programa fue elaborado por Samantha Naomi Vital Flores y se repite hasta que se ingresa la palabra "salir".
+Inicialización de Variables:
+
+Se inicializa la variable palabra como una cadena vacía:
+python
+palabra = ""
+Bucle while:
+
+Se utiliza un bucle while que continuará ejecutándose mientras palabra no sea
+igual a "salir":
+python
+while palabra != "salir":
+Entrada del Usuario:
+
+Se solicita al usuario que ingrese una palabra o "salir" para terminar:
+python
+palabra = input("Ingresa una palabra o ´salir´ para terminar: ")
+Convertir a Minúsculas:
+
+Se convierte la palabra ingresada a minúsculas para asegurar que la comparación sea insensible a mayúsculas:
+python
+palabra = palabra.lower()
+Imprimir la Palabra:
+
+Se imprime la palabra que el usuario ingresó:
+python
+print("Usted ingresó:", palabra)
+Fin del Programa:
+
+Cuando el usuario ingresa "salir", el bucle se detiene y se imprime "Fin del programa".
+Resumen
+Bucle while: Repite la solicitud de entrada hasta que se ingresa "salir".
+lower(): Convierte la entrada del usuario a minúsculas para facilitar la comparación.
