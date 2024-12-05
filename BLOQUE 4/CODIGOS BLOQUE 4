@@ -1,1 +1,19 @@
+PROGRAMA-1
+nombre = "GUZ"
+edad = 19
+calificacion = 95.0
 
+print("mi nombre es:" + nombre + 
+"\nmi edad es:" + str(edad))
+
+#Cadenas de texto formateado
+print(f"nombre: {nombre}, edad: {edad}, promedio {calificacion}")
+
+#utilizando el caracter %
+print("nombre : %s, edad %d, promedio: %2f %(nombre, edad, calificacion)")
+
+
+
+
+
+PROGRAMA-2
