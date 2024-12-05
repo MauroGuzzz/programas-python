@@ -25,6 +25,26 @@ variables de diferentes maneras. Se utilizan concatenación de cadenas, formateo
 
 
 PROGRAMA-2
+Solicitar Información:
+
+El programa comienza pidiendo al usuario que ingrese el tipo de mascota que tiene. Esto se hace a través de un mensaje que se muestra en la pantalla.
+Verificación de la Mascota:
+
+Después de que el usuario ingresa la información, el programa verifica si la palabra "perro" está presente en la entrada del usuario. Esto se hace utilizando una condición que comprueba si "perro" está en el texto ingresado.
+Si la condición es verdadera, el programa imprime un mensaje indicando que el usuario tiene un perro.
+Comprobación de Otras Mascotas:
+
+Si la primera condición no se cumple (es decir, el usuario no mencionó "perro"), el programa verifica si la palabra "gato" está presente en la entrada del usuario.
+Si esta segunda condición es verdadera, el programa imprime un mensaje indicando que el usuario tiene un gato.
+Manejo de Mascotas Desconocidas:
+
+Si ninguna de las condiciones anteriores se cumple (es decir, el usuario no mencionó ni "perro" ni "gato"), el programa imprime un mensaje indicando que el tipo de mascota es desconocido.
+Mensaje de Agradecimiento:
+
+Finalmente, independientemente de la entrada del usuario, el programa imprime un mensaje de agradecimiento por usar el programa.
+Resumen
+
+
 
 
 
